@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>page 2</title>
+	<script type="text/javascript" src="Pet house JS.js"></script>
+	<link rel="stylesheet" type="text/css" href="Pet house CSS.css">
+</head>
+<body>
+<div id="menu">
+	<ul>
+	    <li><a href="Pet house adoption.html" class="space">Homapage</a></li>
+	    <li><a class="space">|</a></li>
+	    <li><a href="page 2.html" class="space">About us/Join us</a></li>
+	    <li><a class="space">|</a></li>
+	</ul>
+</div>
+<div class="box" id="Aboutusbox">
+	<h2 id="abouth1">About Us:</h2>
+	<p id="abouttext">Pet house contains different kinds of pets' information that can help you find your perfect pet.<br> Except pet adoption, we also work with some rescue stations. We collect animals'information for them,<br>and help with them for the stations' opearation.</p>
+	<h2 id="abouth2">Why is adoption?</h2>
+	<p id="whytext">We encourage adpotion because there are still lots of homeless animals in the city. Some animals' life need people's intervene, like breed problem of stray dogs and cats. They should be take care of people, espeacilly little babies. They usually hard to survive by themselves in today's environment. Also, to be honest adpotion is cheaper than buy a pet. Therefore, adoption is a good choice in both sides.</p>
+</div>
+<div class="box" id="joinus">
+	<h2>Become one of us:</h2>
+	<p>Our work is include take care of different pets, collect informations and help people to adoption pets. So if you are interested in our job, please write down your answer for the questions below, we'll give you feedback later.</p><hr>
+	<p>Name*:</p>
+	<input type="text" id="Q1">
+	<p>Please write down your birth*:</p>
+	<input type="text" id="Q2">
+	<p>Contact-email*:</p>
+	<input type="text" id="Q3">
+	<p id="Q4text">Do you have any work experience before?</p>
+	<input type="radio" name="contact" value="YES" id="Choice1">
+	<label for="Choice1">YES</label>
+	<input type="radio" name="contact" value="NO" id="Choice2">
+	<label for="Choice2">NO</label>
+	<p id="Q5text">Are you familiar work with animals?</p>
+	<input type="radio" name="contact" value="YES" id="Choice3">
+	<label for="Choice3">YES</label>
+	<input type="radio" name="contact" value="NO" id="Choice4">
+	<label for="Choice4">NO</label>
+</div>
+<button id="QB" onclick="submitb()">Submit</button>
+<div class="box" id="adbox">
+	<h2>Pet toy special price!</h2>
+	<button id="adbutton" onmouseover="bigbutton(this)" onmouseout="smallbutton(this)" onclick="ad()">Click here to see more</button>
+	<img src="adimg.png" width="300" id="adimg">
+	<p id="adtext">Now big sale for all pet toy! Each item get 25% off! When consumption reached $20,you can also get an speacial prize. What are you waiting for, come and buy!</p>
+</div>
+<div class="box" id="randombox">
+	<h2>Luck Draw:</h2>
+	<h4>(Prize include pet toys, pet food...)</h4>
+	<button id="prizebutton" onclick="LD()">Click here to win prize</button>
+	<img id="LDimg" width="200">
+</div>
+<div class="box" id="lastbox">
+	<h3>Give us a feedback:</h3>
+	<img src="https://64.media.tumblr.com/1c3121f282118e54a360012e49289d26/tumblr_mvtb2zebMK1r3ythuo1_640.gifv" width="170" id="lastimg">
+	<h5>Do you like our website?<br>(Click button to rate us)</h5>
+	<button id="LB" onclick="rate()">Go to rate</button>
+</div>
+
+
+</body>
+</html>
